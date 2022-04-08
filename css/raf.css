@@ -1,0 +1,276 @@
+/* For Testimonial Slider Start Here*/
+
+.testimonialSliderBg {
+    background: linear-gradient(270deg, rgba(251, 251, 251, 0) -43.05%, #E2E5EB 50%, rgba(249, 249, 249, 0) 141.36%);
+    opacity: 0.7;
+    border-radius: 24px;
+    width: 80%;
+}
+
+.vehicle-detail-banner .car-slider-desc {
+    max-width: 180px;
+    margin: 0 auto;
+}
+
+.banner-slider {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.banner-slider .slider.slider-for {
+    max-width: 84%;
+    padding-right: 35px;
+}
+
+.banner-slider .slider.slider-nav {
+    max-width: 16%;
+}
+
+.banner-slider .slider.slider-for,
+.banner-slider .slider.slider-nav {
+    width: 100%;
+    float: left;
+}
+
+.banner-slider .slider.slider-nav {
+    height: 464px;
+    overflow: hidden;
+}
+
+.slider-banner-image {
+    height: 610px;
+}
+
+.banner-slider .slider.slider-nav {
+    padding: 26px 0 0;
+}
+
+.slider-nav .slick-slide.thumbnail-image .thumbImg {
+    /* max-width: 78%; */
+    height: 110px;
+    margin: 0 auto;
+    /* border: 1px solid #EBEBEB; */
+}
+
+.slider-banner-image img {
+    height: 140px;
+    width: 140px;
+}
+
+.slider-banner-image img,
+.slider-nav .slick-slide.thumbnail-image .thumbImg img {
+    height: 66%;
+    width: 51%;
+    object-fit: cover;
+}
+
+.slick-dots {
+    bottom: -55px !important;
+}
+
+.testimonial-more {
+    margin-left: 185px;
+    z-index: 999;
+}
+
+
+/* .testimonial-more a {
+    color: var(--secondary);
+    font-weight: 700;
+} */
+
+.thumbImg img {
+    height: 80%;
+    /* width: 78%; 
+    */
+    object-fit: cover;
+    margin: auto;
+}
+
+.slick-vertical .slick-slide:active,
+.slick-vertical .slick-slide:focus,
+.slick-arrow:hover,
+.slick-arrow:focus {
+    border: 0;
+    outline: 0;
+}
+
+.slider-nav .slick-slide.slick-current.thumbnail-image .thumbImg {
+    border: none;
+}
+
+.slick-prev {
+    left: -12px !important;
+}
+
+.slick-next {
+    right: -12px !important;
+}
+
+.slick-next,
+.slick-prev {
+    top: 25% !important;
+}
+
+.slider-nav .slick-slide.slick-current span {
+    margin-bottom: 5%;
+}
+
+.slider-nav .slick-slide {
+    text-align: center;
+}
+
+.slider-nav .slick-slide span {
+    font-size: 14px;
+    display: block;
+    padding: 5px 0 15px;
+}
+
+.tsSliderImage {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.tsSliderStar {
+    color: #F2994A;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.tsSingleStart {
+    padding: 4px;
+}
+
+.tsSliderDes {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: var(--secondary);
+}
+
+.tsSliderName {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--secondary);
+}
+
+.tsSliderSubName {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #474A4D;
+    margin-bottom: 5%;
+}
+
+
+/*End USE CSS for Slider*/
+
+@media screen and (max-width: 991px) {
+    .banner-slider .slider.slider-for,
+    .banner-slider .slider.slider-nav {
+        max-width: 100%;
+        float: none;
+    }
+    .banner-slider .slider.slider-for {
+        padding-right: 0;
+    }
+    .banner-slider .slider.slider-nav {
+        height: auto;
+    }
+    .slider-banner-image {
+        height: 500px;
+    }
+    .slider.slider-nav.thumb-image {
+        padding: 10px 30px 0;
+    }
+    .slider-nav .slick-slide span {
+        padding: 5px 0;
+    }
+    .vehicle-detail-banner .car-slider-desc {
+        max-width: 340px;
+    }
+    .bid-tag {
+        padding: 10px 0 15px;
+    }
+    .slider.slider-nav.thumb-image {
+        white-space: nowrap;
+    }
+    .thumbnail-image.slick-slide {
+        padding: 0px 5px;
+        min-width: 75px;
+        display: inline-block;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .slider-banner-image {
+        height: 400px;
+    }
+    .slider.slider-nav.thumb-image {
+        padding: 0px 20px 0;
+        margin: 10px 0px 0;
+    }
+    .slider-nav .slick-slide.thumbnail-image .thumbImg {
+        max-width: 78%;
+        height: 80px;
+    }
+    .slider-nav .slick-slide span {
+        font-size: 12px;
+        white-space: normal;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .slider-banner-image {
+        height: 340px;
+    }
+    .p-custom {
+        padding: 2rem !important;
+    }
+    .discount {
+        left: 61px;
+        top: -186px;
+    }
+    .px-mbl {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .glance-bg {
+        height: 660px;
+    }
+    .mbl-height {
+        height: 230px;
+    }
+    .mbl-height:nth-child(2) .glance-line {
+        display: none;
+    }
+    .mbl-height:last-child .glance-line {
+        display: none;
+    }
+    .glance-line {
+        right: -90px;
+    }
+    .p-mbl-custom {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+    .grid-item {
+        padding: .5rem 1.5rem .5rem 2rem !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slider-banner-image {
+        height: 280px;
+    }
+}
+
+
+/* For Testimonial Slider End Here */
